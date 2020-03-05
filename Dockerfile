@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 
 LABEL "com.github.actions.name"="Py Lambda Deploy"
 LABEL "com.github.actions.description"="Deploy python code to AWS Lambda with dependencies in a separate layer."
